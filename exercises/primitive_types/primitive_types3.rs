@@ -2,10 +2,10 @@
 // Create an array with at least 100 elements in it where the ??? is.
 // Execute `rustlings hint primitive_types3` for hints!
 
-// I AM NOT DONE
 
 fn main() {
-    let a = ???
+    // TODO difference between implementation of RangeInclusive<i32> and RangeInclusive<i16>
+    let a = 0_u16..=99;
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
