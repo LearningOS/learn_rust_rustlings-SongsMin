@@ -4,8 +4,9 @@
 
 
 fn main() {
-    // TODO difference between implementation of RangeInclusive<i32> and RangeInclusive<i16>
-    let a = 0_u16..=99;
+    // impl ExactSizeIterator for ops::RangeInclusive<i8|u8> in iter/range.rs
+    // impl ExactSizeIterator for ops::Range<usize|u8|u16|isize|i8|i16> in iter/range.rs
+    let a = 0_u8..=99;
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
